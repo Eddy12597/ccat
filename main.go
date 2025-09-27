@@ -127,4 +127,5 @@ Examples:
 	rootCmd.PersistentFlags().BoolVarP(&ccatCmd.ShowVersion, "version", "v", false, `show version`)
 
 	rootCmd.Execute()
+	fmt.Println()
 }
